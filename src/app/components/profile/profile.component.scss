@@ -68,7 +68,7 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         transition: transform 0.2s;
 
         &:hover {
@@ -181,6 +181,20 @@
   }
 }
 
+.payments-header-image {
+  display: block;
+  margin: 0 auto 1rem;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+
+
 .form-row {
   display: flex;
   gap: 1.5rem;
@@ -258,7 +272,9 @@
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
   font-family: var(--font-headline);
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -342,7 +358,7 @@
     right: 0;
     bottom: 0;
     background-color: #4b5563;
-    transition: .4s;
+    transition: 0.4s;
 
     &:before {
       position: absolute;
@@ -352,7 +368,7 @@
       left: 4px;
       bottom: 4px;
       background-color: white;
-      transition: .4s;
+      transition: 0.4s;
     }
 
     &.round {
@@ -398,13 +414,13 @@
     .card-info {
       display: flex;
       flex-direction: column;
-      
+
       .card-number {
         font-weight: 500;
         color: var(--color-text);
         font-family: var(--font-mono);
       }
-      
+
       .card-expiry {
         font-size: 0.85rem;
         color: var(--color-text-muted);
@@ -418,13 +434,13 @@
       font-size: 1.2rem;
       opacity: 0.7;
       transition: opacity 0.2s;
-      
+
       &:hover {
         opacity: 1;
       }
     }
   }
-  
+
   .empty-msg {
     color: var(--color-text-muted);
     font-style: italic;
@@ -435,7 +451,7 @@
   margin-top: 1.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  
+
   h4 {
     margin-top: 0;
     margin-bottom: 1rem;

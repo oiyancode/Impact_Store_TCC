@@ -266,17 +266,26 @@
                 <input type="password" formControlName="newPassword" />
                 <span
                   class="error"
-                  *ngIf="passwordForm.get('newPassword')?.touched && passwordForm.get('newPassword')?.errors?.['required']"
+                  *ngIf="
+                    passwordForm.get('newPassword')?.touched &&
+                    passwordForm.get('newPassword')?.errors?.['required']
+                  "
                   >Nova senha é obrigatória</span
                 >
                 <span
                   class="error"
-                  *ngIf="passwordForm.get('newPassword')?.touched && passwordForm.get('newPassword')?.errors?.['minlength']"
+                  *ngIf="
+                    passwordForm.get('newPassword')?.touched &&
+                    passwordForm.get('newPassword')?.errors?.['minlength']
+                  "
                   >Mínimo 8 caracteres</span
                 >
                 <span
                   class="error"
-                  *ngIf="passwordForm.get('newPassword')?.touched && passwordForm.get('newPassword')?.errors?.['complexity']"
+                  *ngIf="
+                    passwordForm.get('newPassword')?.touched &&
+                    passwordForm.get('newPassword')?.errors?.['complexity']
+                  "
                   >Requer maiúscula, minúscula e número</span
                 >
               </div>
@@ -285,7 +294,10 @@
                 <input type="password" formControlName="confirmPassword" />
                 <span
                   class="error"
-                  *ngIf="passwordForm.errors?.['mismatch'] && passwordForm.get('confirmPassword')?.touched"
+                  *ngIf="
+                    passwordForm.errors?.['mismatch'] &&
+                    passwordForm.get('confirmPassword')?.touched
+                  "
                   >Senhas não conferem</span
                 >
               </div>
@@ -317,12 +329,16 @@
           <p>Gerencie seus métodos de pagamento e veja opções de reembolso.</p>
         </header>
 
-        <div class="payments-header-image">
+        <picture class="payments-header-image">
+          <source
+            media="(max-width: 768px)"
+            srcset="/assets/icons/icon_bandeiras_mobile.png"
+          />
           <img
             src="/assets/icons/principais-bandeiras-de-cartao.webp"
             alt="Principais bandeiras de cartão"
           />
-        </div>
+        </picture>
 
         <div class="security-block">
           <h3>Cartões Cadastrados</h3>
@@ -333,7 +349,7 @@
             >
               <div class="card-info">
                 <span class="card-number"
-                  >**** **** **** {{ card.number | slice : -4 }}</span
+                  >**** **** **** {{ card.number | slice: -4 }}</span
                 >
                 <span class="card-expiry">{{ card.expiry }}</span>
               </div>
