@@ -21,6 +21,27 @@
         "rating": 5,
         "comment": "Perfeito para street! Muito resistente.",
         "date": "2025-11-25"
+      },
+      {
+        "id": 3,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Lucas Silva",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Lucas Silva",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -46,6 +67,27 @@
         "rating": 4,
         "comment": "Boa bola de treino. Recomendo!",
         "date": "2025-11-29"
+      },
+      {
+        "id": 3,
+        "userName": "Julia Rocha",
+        "rating": 4,
+        "comment": "Gostei do produto, chegou dentro do prazo.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Rafael Costa",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Bruno Souza",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -71,6 +113,27 @@
         "rating": 4,
         "comment": "Muito bom, mas o preço é um pouco salgado.",
         "date": "2025-11-26"
+      },
+      {
+        "id": 3,
+        "userName": "Marcelo Nogueira",
+        "rating": 4,
+        "comment": "Gostei bastante, mas poderia ser um pouco mais barato.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Bruno Souza",
+        "rating": 4,
+        "comment": "Bom material, recomendo a todos.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Marcelo Nogueira",
+        "rating": 4,
+        "comment": "Bom material, recomendo a todos.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -106,6 +169,27 @@
         "rating": 5,
         "comment": "Adorei! Combina com tudo.",
         "date": "2025-11-28"
+      },
+      {
+        "id": 3,
+        "userName": "Lucas Silva",
+        "rating": 4,
+        "comment": "Muito bom, porém o tamanho ficou no limite.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Carolina Dias",
+        "rating": 4,
+        "comment": "Produto de qualidade, atendeu minhas necessidades.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Carolina Dias",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -131,6 +215,27 @@
         "rating": 4,
         "comment": "Muito bom para rampas. Recomendo!",
         "date": "2025-11-26"
+      },
+      {
+        "id": 3,
+        "userName": "Carolina Dias",
+        "rating": 4,
+        "comment": "Bom material, recomendo a todos.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Ana Clara",
+        "rating": 4,
+        "comment": "Bom material, recomendo a todos.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Mariana Gomes",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -156,6 +261,27 @@
         "rating": 5,
         "comment": "Comprei para meu filho e ele adorou!",
         "date": "2025-11-26"
+      },
+      {
+        "id": 3,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Bruno Souza",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -181,6 +307,27 @@
         "rating": 5,
         "comment": "Adorei! Muito confortável e bonito.",
         "date": "2025-11-21"
+      },
+      {
+        "id": 3,
+        "userName": "Letícia Castro",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Julia Rocha",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Rafael Costa",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -206,6 +353,27 @@
         "rating": 5,
         "comment": "Perfeita para campeonatos. Recomendo muito!",
         "date": "2025-11-30"
+      },
+      {
+        "id": 3,
+        "userName": "Rodrigo Lima",
+        "rating": 4,
+        "comment": "Produto de qualidade, atendeu minhas necessidades.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Carolina Dias",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Bruno Souza",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -231,6 +399,27 @@
         "rating": 4,
         "comment": "Muito bom, mas poderia ter mais cores disponíveis.",
         "date": "2025-11-29"
+      },
+      {
+        "id": 3,
+        "userName": "Carolina Dias",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Mariana Gomes",
+        "rating": 4,
+        "comment": "Gostei bastante, mas poderia ser um pouco mais barato.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Carolina Dias",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -256,6 +445,27 @@
         "rating": 5,
         "comment": "Tecnologia de grip realmente funciona. Top!",
         "date": "2025-11-28"
+      },
+      {
+        "id": 3,
+        "userName": "Letícia Castro",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Letícia Castro",
+        "rating": 4,
+        "comment": "Gostei bastante, mas poderia ser um pouco mais barato.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -281,6 +491,27 @@
         "rating": 5,
         "comment": "Adorei! Perfeita para rachão no fim de semana.",
         "date": "2025-11-28"
+      },
+      {
+        "id": 3,
+        "userName": "Mariana Gomes",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Letícia Castro",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -306,6 +537,27 @@
         "rating": 5,
         "comment": "Excelente para jogos profissionais. Vale cada centavo!",
         "date": "2025-11-25"
+      },
+      {
+        "id": 3,
+        "userName": "Julia Rocha",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Ana Clara",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Julia Rocha",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -331,6 +583,27 @@
         "rating": 5,
         "comment": "Melhor proteção que já vi em skate shoe. Vale muito!",
         "date": "2025-11-30"
+      },
+      {
+        "id": 3,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Lucas Silva",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Lucas Silva",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -356,6 +629,27 @@
         "rating": 4,
         "comment": "Ótimo skate shoe. Estilo clássico que funciona.",
         "date": "2025-11-29"
+      },
+      {
+        "id": 3,
+        "userName": "Tiago Mendes",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Mariana Gomes",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Letícia Castro",
+        "rating": 5,
+        "comment": "Excelente qualidade! Superou minhas expectativas.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -391,6 +685,27 @@
         "rating": 5,
         "comment": "Adorei a flexibilidade. Perfeito para caminhadas!",
         "date": "2025-11-24"
+      },
+      {
+        "id": 3,
+        "userName": "Lucas Silva",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Letícia Castro",
+        "rating": 4,
+        "comment": "Gostei bastante, mas poderia ser um pouco mais barato.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -416,6 +731,27 @@
         "rating": 5,
         "comment": "Adorei o design! Muito confortável.",
         "date": "2025-11-27"
+      },
+      {
+        "id": 3,
+        "userName": "Tiago Mendes",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Ana Clara",
+        "rating": 4,
+        "comment": "Gostei do produto, chegou dentro do prazo.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Mariana Gomes",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -441,6 +777,27 @@
         "rating": 4,
         "comment": "Muito bom, mas o preço poderia ser melhor.",
         "date": "2025-11-18"
+      },
+      {
+        "id": 3,
+        "userName": "Rodrigo Lima",
+        "rating": 4,
+        "comment": "Gostei bastante, mas poderia ser um pouco mais barato.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Letícia Castro",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Fernanda Cardoso",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -483,6 +840,27 @@
         "rating": 5,
         "comment": "Melhor compra que fiz! Super leve e confortável.",
         "date": "2025-11-25"
+      },
+      {
+        "id": 4,
+        "userName": "Marcelo Nogueira",
+        "rating": 4,
+        "comment": "Bom material, recomendo a todos.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 5,
+        "userName": "Carolina Dias",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 6,
+        "userName": "Ana Clara",
+        "rating": 4,
+        "comment": "Produto de qualidade, atendeu minhas necessidades.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -508,6 +886,27 @@
         "rating": 4,
         "comment": "Muito boa! Versátil mesmo.",
         "date": "2025-11-27"
+      },
+      {
+        "id": 3,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Excelente qualidade! Superou minhas expectativas.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -532,6 +931,27 @@
         "userName": "Thiago Rocha",
         "rating": 4,
         "comment": "Muito bom, mas poderia ter mais ventilação.",
+        "date": "2025-11-23"
+      },
+      {
+        "id": 3,
+        "userName": "Julia Rocha",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Tiago Mendes",
+        "rating": 5,
+        "comment": "Sensacional! Design muito bonito e acabamento premium.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Tiago Mendes",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
         "date": "2025-11-23"
       }
     ]
@@ -567,6 +987,27 @@
         "rating": 5,
         "comment": "Performance incrível! Recomendo para atletas.",
         "date": "2025-11-29"
+      },
+      {
+        "id": 3,
+        "userName": "Tiago Mendes",
+        "rating": 4,
+        "comment": "Bom material, recomendo a todos.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Carolina Dias",
+        "rating": 4,
+        "comment": "Gostei do produto, chegou dentro do prazo.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Letícia Castro",
+        "rating": 5,
+        "comment": "Excelente qualidade! Superou minhas expectativas.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -600,6 +1041,27 @@
         "rating": 5,
         "comment": "Melhor tênis de corrida que já tive!",
         "date": "2025-11-25"
+      },
+      {
+        "id": 3,
+        "userName": "Fernanda Cardoso",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Carolina Dias",
+        "rating": 5,
+        "comment": "Recomendo muito. O acabamento é impecável.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -625,6 +1087,27 @@
         "rating": 5,
         "comment": "Adorei o design minimalista. Muito bom!",
         "date": "2025-11-27"
+      },
+      {
+        "id": 3,
+        "userName": "Mariana Gomes",
+        "rating": 4,
+        "comment": "Gostei do produto, chegou dentro do prazo.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Felipe Alves",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -667,6 +1150,27 @@
         "rating": 4,
         "comment": "Excelente produto, mas demorou um pouco para chegar.",
         "date": "2025-11-28"
+      },
+      {
+        "id": 4,
+        "userName": "Rafael Costa",
+        "rating": 5,
+        "comment": "Adorei! Chegou rápido e muito bem embalado.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 5,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Excelente qualidade! Superou minhas expectativas.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 6,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -700,6 +1204,27 @@
         "rating": 4,
         "comment": "Excelente conforto. Vale o investimento!",
         "date": "2025-11-26"
+      },
+      {
+        "id": 3,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Rafael Costa",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Muito satisfeito com a compra. Comprarei de novo!",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -733,6 +1258,27 @@
         "rating": 5,
         "comment": "Inovador e super confortável. Adorei!",
         "date": "2025-11-27"
+      },
+      {
+        "id": 3,
+        "userName": "Mariana Gomes",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Marcelo Nogueira",
+        "rating": 4,
+        "comment": "Muito bom, porém o tamanho ficou no limite.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Rodrigo Lima",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-23"
       }
     ]
   },
@@ -766,6 +1312,27 @@
         "rating": 5,
         "comment": "Excelente para treinos de velocidade. Recomendo!",
         "date": "2025-11-24"
+      },
+      {
+        "id": 3,
+        "userName": "Ana Clara",
+        "rating": 5,
+        "comment": "Perfeito! Exatamente como na foto.",
+        "date": "2025-11-21"
+      },
+      {
+        "id": 4,
+        "userName": "Carolina Dias",
+        "rating": 4,
+        "comment": "Muito bom, porém o tamanho ficou no limite.",
+        "date": "2025-11-22"
+      },
+      {
+        "id": 5,
+        "userName": "Rodrigo Lima",
+        "rating": 4,
+        "comment": "Gostei bastante, mas poderia ser um pouco mais barato.",
+        "date": "2025-11-23"
       }
     ]
   }

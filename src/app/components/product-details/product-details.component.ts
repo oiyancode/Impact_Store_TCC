@@ -10,11 +10,12 @@ import { CartService } from '../../services/cart.service';
 import { NavbarComponent } from '../navbar/navbar.component'; // Import NavbarComponent
 import { LoadingComponent } from '../loading/loading.component';
 import { ToastService } from '../../services/toast.service';
+import { ProductReviewsComponent } from '../product-reviews/product-reviews.component';
 
 @Component({
   selector: 'app-product-details',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, LoadingComponent], // Add NavbarComponent to imports
+  imports: [CommonModule, NavbarComponent, LoadingComponent, ProductReviewsComponent], // Add NavbarComponent to imports
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.scss'],
 })

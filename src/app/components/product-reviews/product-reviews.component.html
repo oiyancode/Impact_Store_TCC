@@ -1,0 +1,41 @@
+<section class="reviews-wrapper" *ngIf="reviews.length > 0">
+  <div class="reviews-summary">
+    <div class="average-rating">
+      <span class="rating-number">{{ averageRating | number:'1.1-1' }}</span>
+      <div class="rating-stars" [attr.aria-label]="averageRating + ' de 5 estrelas'">
+        <img *ngFor="let star of [1,2,3,4,5]" src="/assets/icons/star.png" alt="" class="star-icon" [class.filled]="star <= averageRating" />
+      </div>
+      <span class="total-reviews">{{ reviews.length }} avaliação{{ reviews.length !== 1 ? 's' : '' }}</span>
+    </div>
+    <div class="rating-distribution" role="list" aria-label="Distribuição de avaliações">
+      <div class="distribution-row" *ngFor="let rating of [5,4,3,2,1]" role="listitem">
+        <span class="star-label">{{ rating }} estrela{{ rating !== 1 ? 's' : '' }}</span>
+        <div class="progress-bar" role="progressbar" [attr.aria-valuenow]="getRatingPercentage(rating)" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-fill" [style.width.%]="getRatingPercentage(rating)"></div>
+        </div>
+        <span class="percentage">{{ getRatingPercentage(rating) | number:'1.0-0' }}%</span>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-list" 
+       #scrollContainer 
+       (mousedown)="onMouseDown($event)" 
+       (mouseleave)="onMouseLeave()" 
+       (mouseup)="onMouseUp()" 
+       (mousemove)="onMouseMove($event)"
+       [class.active]="isDown">
+    <article class="review-card" *ngFor="let review of reviews">
+      <header class="review-header">
+        <span class="review-user">{{ review.userName }}</span>
+        <div class="review-rating" [attr.aria-label]="review.rating + ' estrelas'">
+          <img *ngFor="let star of [1,2,3,4,5]" src="/assets/icons/star.png" alt="" class="star-icon" [class.filled]="star <= review.rating" />
+        </div>
+      </header>
+      <p class="review-comment">{{ review.comment }}</p>
+      <time class="review-date" [attr.datetime]="review.date">{{ review.date }}</time>
+    </article>
+  </div>
+</section>
+<div class="no-reviews" *ngIf="reviews.length === 0" role="status" aria-live="polite">
+  <p>Ainda não há avaliações deste produto.</p>
+</div>

@@ -137,33 +137,9 @@
     </div>
   </section>
 
-  <!-- Nova Seção: Avaliações -->
-  <section
-    class="reviews-section"
-    *ngIf="
-      product && !isLoading && product.reviews && product.reviews.length > 0
-    "
-  >
-    <div class="reviews-container">
-      <h2>Avaliações</h2>
-
-      <div class="reviews-grid">
-        <div class="review-card" *ngFor="let review of product.reviews">
-          <div class="review-header">
-            <span class="review-user">{{ review.userName }}</span>
-            <div class="review-rating">
-              <img
-                *ngFor="let star of getStarArray(review.rating)"
-                src="/assets/icons/star.png"
-                alt="Star"
-                class="star-icon"
-              />
-            </div>
-          </div>
-          <p class="review-comment">{{ review.comment }}</p>
-          <span class="review-date">{{ review.date }}</span>
-        </div>
-      </div>
-    </div>
+    <!-- Seção de Avaliações -->
+  <section class="reviews-section" *ngIf="product && !isLoading">
+    <h2 class="av_title">Avaliações</h2>
+    <div class="av_table"><app-product-reviews [reviews]="product.reviews || []"></app-product-reviews></div>
   </section>
 </div>

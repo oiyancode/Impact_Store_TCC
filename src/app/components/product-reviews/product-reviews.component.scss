@@ -1,0 +1,203 @@
+.reviews-wrapper {
+  .reviews-summary {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1.5rem;
+    }
+
+    .average-rating {
+      text-align: center;
+      min-width: 150px;
+
+      .rating-number {
+        display: block;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: var(--font-headline);
+        color: #1a1a1a;
+        line-height: 1;
+      }
+
+      .rating-stars {
+        display: flex;
+        justify-content: center;
+        gap: 0.25rem;
+        margin: 0.5rem 0;
+
+        .star-icon {
+          width: 24px;
+          height: 24px;
+          opacity: 0.3;
+          
+          &.filled {
+            opacity: 1;
+          }
+        }
+      }
+
+      .total-reviews {
+        font-family: var(--font-mono);
+        font-size: 0.9rem;
+        color: rgba(26, 26, 26, 0.7);
+      }
+    }
+
+    .rating-distribution {
+      flex: 1;
+
+      .distribution-row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+
+        .star-label {
+          min-width: 70px;
+          color: #1a1a1a;
+        }
+
+        .progress-bar {
+          flex: 1;
+          height: 8px;
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 4px;
+          overflow: hidden;
+
+          .progress-fill {
+            height: 100%;
+            background: #FFD700;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+          }
+        }
+
+        .percentage {
+          min-width: 40px;
+          text-align: right;
+          color: rgba(26, 26, 26, 0.7);
+        }
+      }
+    }
+  }
+
+  .reviews-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    
+    /* Drag to scroll styles */
+    cursor: grab;
+    user-select: none;
+    
+    &.active {
+      cursor: grabbing;
+      scroll-snap-type: none; /* Smooth drag */
+    }
+
+    &::-webkit-scrollbar {
+      height: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+    }
+
+    .review-card {
+      flex: 0 0 auto;
+      width: 320px;
+      scroll-snap-align: start;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+
+      @media (max-width: 768px) {
+        width: 85vw;
+        max-width: 300px;
+        padding: 1.5rem;
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+
+      .review-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .review-user {
+          font-family: var(--font-headline);
+          font-size: 1.1rem;
+          color: #1a1a1a;
+          font-weight: 600;
+        }
+
+        .review-rating {
+          display: flex;
+          gap: 0.25rem;
+
+          .star-icon {
+            width: 20px;
+            height: 20px;
+            opacity: 0.3;
+
+            &.filled {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .review-comment {
+        font-family: var(--font-mono);
+        font-size: 0.95rem;
+        color: #1a1a1a;
+        line-height: 1.6;
+        margin: 0 0 1rem 0;
+      }
+
+      .review-date {
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+        color: rgba(26, 26, 26, 0.7);
+      }
+    }
+  }
+
+  .no-reviews {
+    text-align: center;
+    padding: 3rem;
+    font-family: var(--font-mono);
+    color: rgba(26, 26, 26, 0.7);
+    
+    p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+  }
+}
